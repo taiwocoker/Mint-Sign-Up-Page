@@ -1,139 +1,155 @@
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 a {
-    text-decoration: none;
-    color: #0077c5;
+  text-decoration: none;
+  color: #0077c5;
+  cursor: pointer;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 body {
-    line-height: 1.4;
-    background-color: #eceef1;
-    font-size: 16px;
-    font-family: 'Roboto', sans-serif;
-    color: #4c4c4c;
+  line-height: 1.4;
+  background-color: #eceef1;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  color: #4c4c4c;
 }
-
-/* .container {
-    max-width: 1100px;
-    border: 1px solid red;
-} */
 
 /* Sign-in Container */
 
 .signin-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    padding: 20px;
-    font-size: small;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 20px;
+  font-size: small;
 }
 
 .signin-button button {
-    padding: 10px;
-    border-radius: 8px;
-    border: 1px solid black;
-    margin-left: 10px;
-    cursor: pointer;
-    background-color: #0077c5;
-    color: #fff;
-    width: 120px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid black;
+  margin-left: 10px;
+  cursor: pointer;
+  background-color: #0077c5;
+  color: #fff;
+  width: 120px;
 }
 
 /* Form section */
 
 .logo {
-    text-align: center;
+  text-align: center;
 }
 
 .form-body {
-    width: 380px;
-    height: 662px;
-    margin: auto;
-    border: 1px solid #c7c7c7;
-    text-align: center;
-    padding: 15px;
-    background-color: #fff;
+  width: 380px;
+  height: 662px;
+  margin: auto;
+  border: 1px solid #c7c7c7;
+  text-align: center;
+  padding: 15px;
+  background-color: #fff;
 }
 
 .form-input {
-    padding: 20px;
+  padding: 20px;
 }
 
 .form-header h1 {
-    font-size: 25px;
-    font-weight: 100;
-    margin: 20px;
+  font-size: 25px;
+  font-weight: 100;
+  margin: 20px;
 }
 
 .form-header p {
-    font-size: 14px;
-    padding-bottom: 0;
+  font-size: 14px;
+  padding-bottom: 0;
 }
 
 .form-header a {
-    font-size: 14px;
-    margin-top: 0;
+  font-size: 14px;
+  margin-top: 0;
 }
 
 .fieldset {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .fieldset input {
-    padding: 10px;
-    margin: 10px 0 0 0;
-    width: 320px;
-    height: 10px;
+  padding: 10px;
+  margin: 10px 0 0 0;
+  width: 320px;
+  height: 10px;
 }
 
 .fieldset label {
-    padding-top: 10px;
-    font-size: 14px;
+  padding-top: 10px;
+  font-size: 14px;
 }
 
 .call-rates {
-    font-size: 10px;
-    margin-bottom: 10px;
+  font-size: 10px;
+  margin-bottom: 10px;
 }
 
 .form-input button {
-    width: 350px;
-    height: 45px;
-    border-radius: 8px;
-    background-color: #0077c5;
-    padding: 15px;
-    margin-top: 20px;
-    color: #fff;
-    font-size: 16px;
+  width: 350px;
+  height: 45px;
+  border-radius: 8px;
+  background-color: #0077c5;
+  padding: 15px;
+  margin-top: 20px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
 }
 
 .signin-button i {
-    color: #fff;
+  color: #fff;
 }
 
 .terms {
-    font-size: 12px;
-    font-style: italic;
-    padding: 30px;
-    width: 280px;
-    margin-bottom: -10px;
+  font-size: 12px;
+  font-style: italic;
+  padding: 30px;
+  width: 280px;
 }
 
 .caption {
-    padding: 21px 13px;
-    margin-top: 59px;
-    margin-left: -12px;
-    background-color: #eceef1;
-    width: 100%;
-    font-size: 14px;
-    color: #a69cbc;
+  padding: 16px 13px;
+  margin-top: 59px;
+  margin-left: -12px;
+  background-color: #eceef1;
+  width: 100%;
+  font-size: 14px;
+  color: #a69cbc;
+}
+
+/*** footer ***/
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 13px;
+  padding: 20px;
+}
+
+.footer-links ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer-links ul li {
+  padding: 0 10px;
+  cursor: pointer;
 }
