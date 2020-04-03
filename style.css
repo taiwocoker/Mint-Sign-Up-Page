@@ -111,6 +111,7 @@ body {
   color: #fff;
   font-size: 16px;
   cursor: pointer;
+  border: none;
 }
 
 .signin-button i {
